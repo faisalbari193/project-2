@@ -2,7 +2,7 @@ import Container from "../../ui/Container";
 import NavbarImage from "../../assets/images/Logo.png";
 const Navbar = () => {
   return (
-    <nav className="mt-6.5">
+    <nav className="mt-6.5  absolute w-full  top-0 left-0 z-10">
       <Container>
         <div className="flex items-center justify-between">
           <div className="flex justify-between gap-x-104">
