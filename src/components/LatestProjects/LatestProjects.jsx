@@ -96,7 +96,7 @@ const LatestProjects = () => {
           </div>
         </Container>
       </div>
-      <a href="" className="mt-8 px-6.25 py-[14.5px] bg-[#06C279] text-white font-custom font-medium text-[16px] leading-5.5 rounded-[10px] block w-max mx-auto">
+      <a href="" className="mt-8 px-6.25 py-[14.5px] bg-[#06C279] text-white font-custom font-semibold text-[16px] leading-5.5 rounded-[10px] block w-max mx-auto">
         View All Projects
       </a>
     </section>

@@ -1,4 +1,10 @@
 @import "tailwindcss";
 @theme {
-  --font-custom: "Lato", sans-serif; 
+  --font-custom: "Lato", sans-serif;
+}
+.slick-dots li button:before {
+  color: #06c279;
+}
+.slick-dots li.slick-active button:before {
+  color: #06c279;
 }
