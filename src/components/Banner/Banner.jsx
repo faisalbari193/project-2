@@ -2,7 +2,7 @@ import BannerImage from "../../assets/images/banner.png";
 import Container from "../../ui/Container";
 const Banner = () => {
   return (
-    <section className="bg-[#ddfcf0]  relative pt-24">
+    <section className="bg-[#EEFFF9]  relative pt-24">
       <Container>
         <div className="flex gap-35.25 items-center">
           <div className="w-[50%] mx-auto">
