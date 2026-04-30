@@ -6,7 +6,7 @@ const Offer = () => {
         <div className="flex gap-28.25">
           <div className="flex gap-6">
             <div className="flex flex-col gap-6 mt-32">
-              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm group hover:bg-[#06C279] transition-colors duration-300 cursor-pointer">
+              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm group hover:bg-[#7AE0B9] transition-colors duration-300 cursor-pointer">
                 <svg
                   width="90"
                   height="90"
@@ -63,7 +63,7 @@ const Offer = () => {
                   appealing websites
                 </p>
               </div>
-              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm group hover:bg-[#06C279] transition-colors duration-300 cursor-pointer">
+              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm group hover:bg-[#7AE0B9] transition-colors duration-300 cursor-pointer">
                 <svg
                   className="[&_path]:fill-[#06C279] [&_path]:group-hover:fill-white [&_path]:transition-colors [&_path]:duration-300"
                   width="80"
@@ -146,7 +146,7 @@ const Offer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-6">
-              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm hover:bg-[#06C279] transition-colors duration-300 cursor-pointer group">
+              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm hover:bg-[#7AE0B9] transition-colors duration-300 cursor-pointer group">
                 <svg
                   className="[&_path]:fill-[#06C279] [&_path]:group-hover:fill-white [&_path]:transition-colors [&_path]:duration-300"
                   width="82"
@@ -317,7 +317,7 @@ const Offer = () => {
                   appealing websites
                 </p>
               </div>
-              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm group hover:bg-[#06C279] transition-colors duration-300 cursor-pointer">
+              <div className="w-78 h-80.5 px-8 pt-8 pb-12 bg-white rounded-[10px] shadow-sm group hover:bg-[#7AE0B9] transition-colors duration-300 cursor-pointer">
                 <svg
                   className="[&_path]:fill-[#06C279] [&_path]:group-hover:fill-white [&_path]:transition-colors [&_path]:duration-300"
                   width="70"
