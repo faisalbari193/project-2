@@ -42,7 +42,7 @@ const Footer = () => {
               <li>
                 <a
                   href=""
-                  className="font-custom text-[14px] text-[#7B7B7B] hover:text-teal-500 transition-colors"
+                  className="font-custom text-[14px] text-[#7B7B7B]  transition-colors"
                 >
                   Web
                 </a>
@@ -50,7 +50,7 @@ const Footer = () => {
               <li>
                 <a
                   href=""
-                  className="font-custom text-[14px] text-[#7B7B7B] hover:text-teal-500 transition-colors"
+                  className="font-custom text-[14px] text-[#7B7B7B]  transition-colors"
                 >
                   Web Development
                 </a>
@@ -58,7 +58,7 @@ const Footer = () => {
               <li>
                 <a
                   href=""
-                  className="font-custom text-[14px] text-[#7B7B7B] hover:text-teal-500 transition-colors"
+                  className="font-custom text-[14px] text-[#7B7B7B]  transition-colors"
                 >
                   SEO Marketing
                 </a>
@@ -66,7 +66,7 @@ const Footer = () => {
               <li>
                 <a
                   href=""
-                  className="font-custom text-[14px] text-[#7B7B7B] hover:text-teal-500 transition-colors"
+                  className="font-custom text-[14px] text-[#7B7B7B]  transition-colors"
                 >
                   UI/UX Analysis
                 </a>
@@ -74,7 +74,7 @@ const Footer = () => {
               <li>
                 <a
                   href=""
-                  className="font-custom text-[14px] text-[#7B7B7B] hover:text-teal-500 transition-colors"
+                  className="font-custom text-[14px] text-[#7B7B7B]  transition-colors"
                 >
                   Digital Marketing
                 </a>
