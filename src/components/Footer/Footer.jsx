@@ -129,7 +129,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your mail"
-              className="w-full border border-gray-200 rounded-[5px] px-5 py-4 text-sm text-gray-400 outline-none"
+              className="w-full border border-gray-200 rounded-[5px] px-4 py-5 text-sm text-gray-400 outline-none"
             />
             <div className="mt-5">
               <a
