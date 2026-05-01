@@ -7,7 +7,9 @@ const TopServices = () => {
         <div className="flex gap-x-40.75">
           <div className="max-w-135.75 mx-auto mt-49.5 mb-54">
             <h3 className="font-custom font-semibold text-[45px] leading-13.5 mb-5  max-w-114.25">
-              Take your business to new heights with our top services.
+              <span className="block">Take your business</span>
+              <span className="block">to new heights</span>
+              <span className="block">with our top services.</span>
             </h3>
             <p className="font-custom  font-normal text-[16px] leading-6.5 mb-7.75">
               At our company, we pride ourselves on offering a variety of

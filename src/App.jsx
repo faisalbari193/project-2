@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Offer from "./components/Offer/Offer";
 import OurClient from "./components/OurClient/OurClient";
 import TopServices from "./components/TopServices/TopServices";
-
+import FreeTrial from "./components/FreeTrial/FreeTrial";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -16,6 +17,8 @@ function App() {
       <LatestProjects />
       <TopServices />
       <OurClient />
+      <FreeTrial />
+      <Footer />
     </>
   );
 }
