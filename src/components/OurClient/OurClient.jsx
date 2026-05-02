@@ -33,9 +33,9 @@ const OurClient = () => {
     { img: Man, title: "Excellent Team!", name: "Farhan Rio" },
     { img: Womun1, title: "Great Service", name: "Alizabeth Nancy" },
     { img: Womun2, title: "The Best Agency!", name: "Jenny Wilson" },
-    // { img: Man, title: "Excellent Team!", name: "Farhan Rio" },
-    // { img: Womun1, title: "Great Service", name: "Alizabeth Nancy" },
-    // { img: Womun2, title: "The Best Agency!", name: "Jenny Wilson" },
+    { img: Man, title: "Excellent Team!", name: "Farhan Rio" },
+    { img: Womun1, title: "Great Service", name: "Alizabeth Nancy" },
+    { img: Womun2, title: "The Best Agency!", name: "Jenny Wilson" },
   ];
 
   if (!Slider) {
@@ -53,10 +53,13 @@ const OurClient = () => {
         <div className="py-6 overflow-hidden">
           <Slider ref={sliderRef} {...settings}>
             {slides.map((slide, i) => (
-              <div key={i} className="px-3">
+              <div key={i} className="px-4">
                 <div className="shadow p-10 relative rounded-[20px]">
                   <img src={slide.img} alt={slide.name} className="mx-auto" />
-                  <div className="bg-black w-10.75 h-10.75 rounded-full flex items-center justify-center hover:bg-[#06C279] absolute bottom-96 left-30">
+                  <div
+                    className={`w-10.75 h-10.75 rounded-full flex items-center justify-center  absolute bottom-96 left-30 ${
+                      active === i ? "bg-[#06C279] scale-110" : "bg-black "
+                    }`}>
                     <ImQuotesLeft className="text-[22px] text-white" />
                   </div>
                   <h3 className="font-custom text-center font-semibold text-[24px] leading-7.5 mt-3.75 mb-1">
