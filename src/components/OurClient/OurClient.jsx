@@ -52,7 +52,7 @@ const OurClient = () => {
         <div className="overflow-hidden">
           <Slider ref={sliderRef} {...settings}>
             {slides.map((slide, i) => (
-              <div key={i} className="px-4">
+              <div key={i} className="px-3">
                 <div className="shadow p-10 relative rounded-[20px]">
                   <img src={slide.img} alt={slide.name} className="mx-auto" />
                   <div

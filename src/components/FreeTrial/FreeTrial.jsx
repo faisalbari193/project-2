@@ -6,7 +6,7 @@ const FreeTrial = () => {
     <section className="bg-[#06C279] relative  py-24">
       <Container>
         <div className="flex justify-between items-center">
-          <div className="px-4">
+          <div className="px-8.5">
             <h2 className="font-custom font-semibold text-[45px] leading-13.5 text-white  mb-9.5">
               Don’t Worries, Start Your Free Trial Today!
             </h2>
@@ -17,7 +17,7 @@ const FreeTrial = () => {
               Get Free Trial
             </a>
           </div>
-          <div className="absolute right-60 -top-11 z-10">
+          <div className="absolute right-60 -top-9 z-10">
             <img src={GirlImg} alt="cta" />
           </div>
         </div>
