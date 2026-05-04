@@ -26,8 +26,8 @@ const Banner = () => {
                 className="text-center border border-2xl border-[#06C279]  py-3.5 px-6.25 rounded-[5px] font-custom font-semibold text-[16px]"
               >
                 <svg
-                  className="inline-block w-5 h-4.75 pr-3"
-                  width="20"
+                  className="inline-block  pr-3"
+                  width="30"
                   height="20"
                   viewBox="0 0 20 20"
                   fill="none"

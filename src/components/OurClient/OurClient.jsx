@@ -45,19 +45,18 @@ const OurClient = () => {
 
   return (
     <section className="mt-21.5 mb-25">
+      <h3 className="text-center font-custom font-semibold text-[45px] leading-13.5 mb-11.75">
+        What Our Clients Saying
+      </h3>
       <Container>
-        <h3 className="text-center font-custom font-semibold text-[45px] leading-13.5 mb-12">
-          What Our Clients Saying
-        </h3>
-
-        <div className="py-6 overflow-hidden">
+        <div className="overflow-hidden">
           <Slider ref={sliderRef} {...settings}>
             {slides.map((slide, i) => (
               <div key={i} className="px-4">
                 <div className="shadow p-10 relative rounded-[20px]">
                   <img src={slide.img} alt={slide.name} className="mx-auto" />
                   <div
-                    className={`w-10.75 h-10.75 rounded-full flex items-center justify-center  absolute bottom-96 left-30 ${
+                    className={`w-10.75 h-10.75 rounded-full flex items-center justify-center  absolute bottom-92 left-30 ${
                       active === i ? "bg-[#06C279] scale-110" : "bg-black "
                     }`}>
                     <ImQuotesLeft className="text-[22px] text-white" />
@@ -72,7 +71,7 @@ const OurClient = () => {
                     <IoStarSharp />
                     <IoStarSharp />
                   </span>
-                  <p className="font-custom font-normal text-[16px] leading-6 text-[#7B7B7B] text-center mt-5 mb-3.75 px-4">
+                  <p className="font-custom font-normal text-[16px] leading-6 text-[#7B7B7B] text-center mt-5 mb-3.75 px-2">
                     The customer service team at this company was very
                     responsive and helpful when I had questions about their
                     products.
