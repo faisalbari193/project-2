@@ -7,7 +7,7 @@ import Be from "../../assets/images/be.png";
 
 const Footer = () => {
   return (
-    <footer className="mt-25">
+    <footer className="mt-25 ">
       <Container>
         <div className="grid grid-cols-4 gap-16 mb-10.5">
           <div>
