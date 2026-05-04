@@ -17,9 +17,7 @@ const FreeTrial = () => {
               Get Free Trial
             </a>
           </div>
-
-          {/* 👉 only this div updated */}
-          <div className="absolute right-30 -top-11 z-10">
+          <div className="absolute right-65 -top-11 z-10">
             <img src={GirlImg} alt="cta" />
           </div>
         </div>
