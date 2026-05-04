@@ -6,8 +6,8 @@ const FreeTrial = () => {
     <section className="bg-[#06C279] relative  py-24">
       <Container>
         <div className="flex justify-between items-center">
-          <div>
-            <h2 className="font-custom font-semibold text-[45px] leading-13.5 text-white mb-9.5">
+          <div className="px-4">
+            <h2 className="font-custom font-semibold text-[45px] leading-13.5 text-white  mb-9.5">
               Don’t Worries, Start Your Free Trial Today!
             </h2>
             <a
